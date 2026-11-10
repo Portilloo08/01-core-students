@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />git
+    <meta name="theme-color" content="#752e20" />
+    <title>Navegación con Flexbox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="horizontal" aria-label="Navegación principal">
+        <ul>
+          <li id="logo">
+            <a href="#inicio" aria-label="Inicio">
+              <img src="./img/instagram-logo.svg" alt="Instagram" />
+            </a>
+          </li>
+          <li>
+            <a href="#inicio" aria-label="Inicio">
+              <span class="material-icons" aria-hidden="true">home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#ajustes" aria-label="Ajustes">
+              <span class="material-icons" aria-hidden="true">settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="#salir" aria-label="Salir">
+              <span class="material-icons" aria-hidden="true">logout</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav id="vertical" aria-label="Navegación secundaria">
+        <ul>
+          <li>
+            <a href="#inicio" aria-label="Inicio">
+              <span class="material-icons" aria-hidden="true">home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#ajustes" aria-label="Ajustes">
+              <span class="material-icons" aria-hidden="true">settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="#salir" aria-label="Salir">
+              <span class="material-icons" aria-hidden="true">logout</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="inicio" aria-label="Contenido de la página"></main>
+  </body>
+</html>
