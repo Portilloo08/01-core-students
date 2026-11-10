@@ -16,9 +16,20 @@
 /* ==========================================================================
    3. Layout
    ========================================================================== */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 5px;
+}
+
 .grid-item {
   background-color: var(--item-color);
   padding: 3rem;
+}
+
+.item-1,
+.item-5 {
+  grid-column: 1 / -1;
 }
 
 .grid-container-2 {
