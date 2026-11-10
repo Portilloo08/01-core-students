@@ -32,6 +32,10 @@
   grid-column: 1 / -1;
 }
 
+.item-4 {
+  align-self: end;
+}
+
 .grid-container-2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
